@@ -53,19 +53,29 @@ const Hero = () => (
   </FormGroup>
   </th>
   <td>
-  Mark
+  1
   </td>
   <td>
-  Otto
+  Ivan Ivanov
   </td>
   <td>
-  @mdo
+  TestUser1
+  </td>
+  <td>
+  TestUser1@example.com
+  </td>
+  <td>
+  20.02.2020
+  </td>
+  <td>
+  12.12.2021
   </td>
   </tr>
   <tr>
   <th scope="row">
   <FormGroup
   check
+  class = "tableCheckBox"
   >
   <Input type="checkbox" />
   <Label check>
@@ -74,19 +84,29 @@ const Hero = () => (
   </FormGroup>
   </th>
   <td>
-  Jacob
+  2
   </td>
   <td>
-  Thornton
+  Petr Petrov
   </td>
   <td>
-  @fat
+  TestUser2
+  </td>
+  <td>
+  TestUser2@example.com
+  </td>
+  <td>
+  20.12.2020
+  </td>
+  <td>
+  21.12.2021
   </td>
   </tr>
   <tr>
   <th scope="row">
   <FormGroup
   check
+  class = "tableCheckBox"
   >
   <Input type="checkbox" />
   <Label check>
@@ -95,13 +115,22 @@ const Hero = () => (
   </FormGroup>
   </th>
   <td>
-  Larry
+  3
   </td>
   <td>
-  the Bird
+  Pavel Pavlov
   </td>
   <td>
-  @twitter
+  TestUser3
+  </td>
+  <td>
+  TestUser3@example.com
+  </td>
+  <td>
+  10.04.2020
+  </td>
+  <td>
+  02.12.2021
   </td>
   </tr>
   </tbody>

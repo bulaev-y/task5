@@ -1,9 +1,8 @@
 import React, { Component } from "react";
-
 import { Row, Col, Toast, ToastBody, ToastHeader , Button, ButtonGroup} from "reactstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { useAuth0 } from "@auth0/auth0-react";
 import {ProfileComponent} from ".././views/Profile";
+import { useAuth0 } from "@auth0/auth0-react";
 
 
 class Content extends Component {
